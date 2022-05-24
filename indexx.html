@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razas y Mercado Ganadero</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="logo2.png">
+</head>
+<body>
+
+    <div class="cabecera">
+        <a href="index.html">
+            <img src="logo2.png" alt="Ir al inicio">
+        </a>
+        <h1 class="cabecera-titulo">Tu Mercado Ganadero</h1>
+        <div class="inicio-registrar">
+            <ul class="registrase">
+                <li class="registrarse-form">
+                    <a href="registrarse.html" class="registrarse-form_item">
+                        Registrarse
+                    </a>
+            
+                </li>
+                <li class="iniciar-form">
+                    <a href="iniciar.html" class="iniciar-form_item">
+                        Iniciar Sesión
+                    </a>
+            
+                </li>
+            </ul>
+            
+        </div>
+    
+
+    </div> <!-- Aca cierra . cabecera -->
+
+    <div class="contenido">
+        <nav class="nav">
+            <ul class="nav-lista">
+                <li class="nav-lista_item">
+                    <a href="razas.html" class="nav-lista_item-link">
+                        Razas
+                    </a>
+            
+                </li>
+                <li class="nav-lista_item">
+                    <a href="actores.html" class="nav-lista_item-link">
+                       Actores                
+                    </a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="mercado.html" class="nav-lista_item-link">
+                        Mercado
+                    </a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="curso.html" class="nav-lista_item-link">
+                        Curso Online
+                    </a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="nosotros.html" class="nav-lista_item-link">
+                        Nosotros
+                    </a>
+                </li>
+                <li class="nav-lista_item">
+                    <a href="contacto.html" class="nav-lista_item-link">
+                       Contacto                
+                    </a>
+                </li>
+            </ul>  <!-- Cierre de lista  -->
+            <form action="buscar.js" class="nav-form">
+                <input type="text" placeholder="Buscar en el sitio">
+                <input type="submit" value="Buscar">
+            </form>       
+
+        </nav>
+        <!-- Cierra Nav -->
+
+        <div class="slider">
+            <img class="images-img" src="la_raza.png" alt="Foto de Angus">
+        </div>
+        <!-- Cierra Slider -->
+
+        <div class="principal">
+            <div class="informacion">
+                <div class="noticia">
+                    <h2 class="noticia-titulo">Con 8.500 cabezas, Rosgan llega a Palermo para festejar los 100 años de Angus</h2>
+                    <div class="noticia-info">
+                        <img src="noticia1.png" alt="">
+                        <p>Este martes 24 de mayo Rosgan, el mercado de invernada y cría de la Bolsa de Comercio de Rosario, hará un remate especial de más de 8.500 cabezas en la exposición que organiza Angus por sus 100 años en la Sociedad Rural Argentina.</p>
+                    </div>
+                </div>
+
+                <div class="noticia">
+                    <h2 class="noticia-titulo">Buena demanda en todas las categorías, inclusive en las más difíciles</h2>
+                    <div class="noticia-info">
+                        <img src="noticia1.png" alt="">
+                        <p>A sala plena, ayer se realizó en el recinto de la Bolsa de Comercio de Rosario un nuevo remate del mercado donde se ofertaron más de 12.300 cabezas en un día. Con agilidad, en una semana donde la oferta de terneros volvió a aparecer en este final de zafra, se lograron precios sostenidos en la mayoría de las categorías, con un ternero que logró un precio máximo de $415.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="newsletter">
+        <img src="ayuda.png" alt="" class="news-img">
+        <div class="news-info">
+            <h3>Ayuda</h3>
+            <p>Estamos para ayudarte</p>
+        </div>
+        <form action="suscribirse.js" class="news-form">
+            <!-- Ojo que acá hay un issue de accesibilidad, más adelante vemos cómo arreglarlo -->
+            <input type="email">
+            <input type="submit" value="Suscribirse">
+        </form>
+    </div>
+
+     
+
+
+    
+</body>
+</html>

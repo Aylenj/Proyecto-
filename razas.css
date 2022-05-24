@@ -1,0 +1,37 @@
+/*
+    ------------ PRINCIPAL ------------
+*/
+
+.principal {
+    background-color: beige;
+    display: center;
+    grid-template-columns: 240px 1fr;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+    font-size: 35px;
+    text-decoration: underline;
+}   
+
+.tipo-raza {
+    margin-bottom: 8px;
+    
+}
+
+.angus-info,
+.hereford-info,
+.brangus-info,
+.holando-info {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
